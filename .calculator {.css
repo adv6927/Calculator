@@ -1,0 +1,35 @@
+.calculator {
+    width: 250px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .display {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: right;
+  }
+  
+  .result h2 {
+    font-size: 22px;
+    color: green;
+  }
+  
+  .buttons button {
+    padding: 20px;
+    font-size: 18px;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  button:active {
+    background-color: #ddd;
+  }
